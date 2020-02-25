@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import { BrowserRouter, Route, withRouter } from "react-router-dom";
 import Languages from "./components/Languages";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 class App extends Component {
   constructor() {
@@ -26,8 +27,8 @@ class App extends Component {
           <Route exact path="/portfolio" component={AboutMe} />
           <Route path="/portfolio/languages" component={Languages} />
           <Route path="/portfolio/projects" component={Projects} />
+          <Route path="/portfolio/contact" component={Contact} />
         </div>
-        {console.log("URL", process.env.PUBLIC_URL)}
       </BrowserRouter>
     );
   }

@@ -88,7 +88,9 @@ const Projects = props => (
     <div className="project3">
       <div className="flip">
         <div className="front coming-soon"></div>
-        <div className="back">COMING SOON</div>
+        <div className="back">
+          <strong className="project-name">COMING SOON!</strong>
+        </div>
       </div>
     </div>
     <div className="project4">
@@ -98,7 +100,7 @@ const Projects = props => (
         </div>
         <div className="back">
           <div className="contributions-long">
-            <strong>Geek Text</strong>
+            <strong className="project-name">Geek Text</strong>
             <br />
             <br />
             My Contributions:
