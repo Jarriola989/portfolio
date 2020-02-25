@@ -15,26 +15,29 @@ class Navbar extends Component {
     return (
       <div className="navigation">
         <div className="inner-nav">
-          <Link to="/" className={"/" === pathname ? "active" : "inactive"}>
+          <Link
+            to="/portfolio"
+            className={"/" === pathname ? "active" : "inactive"}
+          >
             About Me
           </Link>
 
           <Link
-            to="/languages"
+            to="/portfolio/languages"
             className={"/languages" === pathname ? "active" : "inactive"}
           >
             Languages & Frameworks
           </Link>
 
           <Link
-            to="/projects"
+            to="/portfolio/projects"
             className={"/projects" === pathname ? "active" : "inactive"}
           >
             My Projects
           </Link>
 
           <Link
-            to="contact"
+            to="/portfolio/contact"
             className={"/contact" === pathname ? "active" : "inactive"}
           >
             Contact Me

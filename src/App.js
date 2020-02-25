@@ -18,14 +18,14 @@ class App extends Component {
       <BrowserRouter>
         <div className="box">
           <Route
-            path="/"
+            path="/portfolio"
             render={withRouter(props => (
               <Navbar {...props} />
             ))}
           />
-          <Route exact path="/" component={AboutMe} />
-          <Route path="/languages" component={Languages} />
-          <Route path="/projects" component={Projects} />
+          <Route exact path="/portfolio" component={AboutMe} />
+          <Route path="/portfolio/languages" component={Languages} />
+          <Route path="/portfolio/projects" component={Projects} />
         </div>
         {console.log("URL", process.env.PUBLIC_URL)}
       </BrowserRouter>
