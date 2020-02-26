@@ -98,7 +98,7 @@ const Projects = props => (
         <div className="front">
           <img src={geek} alt="geek-text" />
         </div>
-        <div className="back">
+        <div className="back long">
           <div className="contributions-long">
             <strong className="project-name">Geek Text</strong>
             <br />
@@ -111,6 +111,8 @@ const Projects = props => (
             </ul>
           </div>
           <div className="tech-long">
+            <br />
+            <br />
             Technologies used:
             <ul>
               <li>ReactJS</li>

@@ -10,6 +10,7 @@ import sql from "../images/sql.png";
 
 const Languages = props => (
   <div className="languages">
+    <h2 className="languages-title">Languages</h2>
     <div className="java">
       <img src={java} alt="java" />
     </div>
@@ -35,6 +36,8 @@ const Languages = props => (
     <div className="cplusplus">
       <img src={cplusplus} alt="C++" />
     </div>
+
+    <h2 className="frameworks-title">Frameworks and Tools</h2>
   </div>
 );
 
