@@ -3,7 +3,10 @@ import LanguagesPanel from "./LanguagesPanel";
 
 const Languages = props => (
   <div className="languages">
-    <h2 className="languages-title">Languages</h2>
+    <div className="languages-title">
+      <button>Languages</button>
+      <button>Frameworks and Tools</button>
+    </div>
     <LanguagesPanel />
     <h2 className="frameworks-title">IN PROGRESS</h2>
   </div>

@@ -141,26 +141,60 @@ p.about {
   grid-row: 2 / 6;
   display: grid;
   grid-template-columns: 5% 90% 5%;
-  grid-template-rows: 15% 80% 5%;
+  grid-template-rows: 20% 70% 10%;
   /* margin: 0 auto; */
   width: 100%;
   background-color: #7b6780;
   /* align-items: center; */
 }
 
-h2 {
+/* h2 {
   font-family: "Open Sans";
   color: #e9e2d0;
   font-size: 20px;
   margin: 0 auto;
   /* align-items: center;
   display: flex; */
-}
+/* } */
 
 .languages-title {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
-  border: solid;
+  background-color: rgb(214, 209, 216);
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  /* padding: 10px 10px 10px 10px; */
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75); */
+}
+
+.languages-title button {
+  border: none;
+  font-weight: bold;
+  color: #6e5773;
+  font-size: 20px;
+  font-family: "Open Sans";
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  /* padding: 0; */
+}
+
+.languages-title button:hover {
+  background-color: white;
+  color: #6e5773;
+}
+
+.divider {
+  font-size: 35px;
+  margin: 0 auto;
+  color: #6e5773;
+  font-family: "Raleway";
 }
 
 .frameworks-title {
@@ -177,7 +211,7 @@ h2 {
 }
 
 .panel-container div {
-  border: solid;
+  /* border: solid; */
 }
 
 .open {
@@ -204,28 +238,20 @@ h2 {
 }
 
 .close img {
-  height: 80%;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   /* display: flex; */
   /* align-items: center; */
-  text-align: center;
+  /* text-align: center; */
   /* vertical-align: middle; */
 }
 
 .open img {
   /* height: 100%; */
   /* size: contain; */
-  border: solid;
+  /* border: solid; */
   border-color: white;
-}
-
-.languages div img {
-  /* transform: translate(0%, 70%); */
-  border: solid;
-  width: 100%;
-  /* vertical-align: middle; */
-  /* height: 30%;
-  display: inline-block; */
 }
 
 /********** PROJECTS **********/

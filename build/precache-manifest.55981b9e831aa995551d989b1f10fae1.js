@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38a4cd5fea79d8ef41e8a5064e922b46",
+    "revision": "daf0a93f4cc41a3f3f573df5e7589a2e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ad2720d53b2700eb36e5",
-    "url": "/portfolio/static/css/main.b3dbd573.chunk.css"
+    "revision": "0dd04411b02bbb982c85",
+    "url": "/portfolio/static/css/main.2353660e.chunk.css"
   },
   {
-    "revision": "8d219726ba71f0227be9",
-    "url": "/portfolio/static/js/2.91090c0f.chunk.js"
+    "revision": "2df31904d374a169f9c9",
+    "url": "/portfolio/static/js/2.66a633c7.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/portfolio/static/js/2.91090c0f.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.66a633c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad2720d53b2700eb36e5",
-    "url": "/portfolio/static/js/main.34509cf1.chunk.js"
+    "revision": "0dd04411b02bbb982c85",
+    "url": "/portfolio/static/js/main.9ebd0bee.chunk.js"
   },
   {
     "revision": "11351ff706ca9640736e",
     "url": "/portfolio/static/js/runtime-main.3b971105.js"
+  },
+  {
+    "revision": "2b63970bac586f3ae723c52b53facef9",
+    "url": "/portfolio/static/media/Java.2b63970b.jpg"
   },
   {
     "revision": "894bef2fffd5fea517c49cd1fc091df1",
@@ -36,8 +40,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/computer.5cf39d01.jpeg"
   },
   {
+    "revision": "d4e64920e4c9f824818d7830b559d308",
+    "url": "/portfolio/static/media/cplusplus.d4e64920.jpg"
+  },
+  {
     "revision": "10c1602db8c98a84245da911dc8ceeac",
     "url": "/portfolio/static/media/geektext.10c1602d.png"
+  },
+  {
+    "revision": "398b7a11ff9b94157d806ab2d3fd103d",
+    "url": "/portfolio/static/media/graphql.398b7a11.png"
+  },
+  {
+    "revision": "e87e26c1f79051d2a615218fbeaec6a2",
+    "url": "/portfolio/static/media/html-css.e87e26c1.jpg"
+  },
+  {
+    "revision": "0c6dab7f81aad00b3560118efa720ee2",
+    "url": "/portfolio/static/media/js-ts.0c6dab7f.png"
   },
   {
     "revision": "8297fb02e9bd9933ff07160424ec8970",
