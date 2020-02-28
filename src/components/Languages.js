@@ -1,15 +1,74 @@
-import React from "react";
+import React, { Component } from "react";
 import LanguagesPanel from "./LanguagesPanel";
 
-const Languages = props => (
-  <div className="languages">
-    <div className="languages-title">
-      <button>Languages</button>
-      <button>Frameworks and Tools</button>
-    </div>
-    <LanguagesPanel />
-    <h2 className="frameworks-title">IN PROGRESS</h2>
-  </div>
-);
+class Languages extends Component {
+  constructor() {
+    super();
+    this.state = {
+      languages: true
+    };
+  }
 
-export default Languages;
+  switchToLanguages = () => {
+    this.setState({
+      languages: true
+    });
+  };
+
+  switchToFrameworks = () => {
+    this.setState({
+      languages: false
+    });
+  };
+
+  render() {
+    if (this.state.languages) {
+      return (
+        <div className="languages">
+          <div className="languages-title">
+            <button
+              className={
+                this.state.languages ? "active-languages-option" : null
+              }
+              onClick={this.switchToLanguages}
+            >
+              Languages
+            </button>
+            <button
+              className={
+                !this.state.languages ? "active-languages-option" : null
+              }
+              onClick={this.switchToFrameworks}
+            >
+              Frameworks and Tools
+            </button>
+          </div>
+          <LanguagesPanel />
+          <h2 className="frameworks-title">IN PROGRESS</h2>
+        </div>
+      );
+    } else {
+      return (
+        <div className="languages">
+          <div className="languages-title">
+            <button
+              className={
+                this.state.languages ? "active-languages-option" : null
+              }
+              onClick={this.switchToLanguages}
+            >
+              Languages
+            </button>
+            <button onClick={this.switchToFrameworks}>
+              Frameworks and Tools
+            </button>
+          </div>
+          <LanguagesPanel />
+          <h2 className="frameworks-title">IN PROGRESS</h2>
+        </div>
+      );
+    }
+  }
+}
+
+export default Languages
