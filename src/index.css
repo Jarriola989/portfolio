@@ -7,7 +7,7 @@
 }
 
 html {
-  background-image: url("./images/bg.jpg");
+  background-image: url("./images/orange-cloud.jpg");
   position: fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -96,10 +96,12 @@ p.about {
   opacity: 1;
 }
 
-.resume {
+a.resume {
   grid-column: 1 / 2;
+  margin: 0 auto;
+}
+button.resume {
   font-size: 30px;
-  margin: auto;
   border: solid;
   border-radius: 100px;
   padding: 10px 15px 10px 15px;
@@ -115,7 +117,6 @@ a.linkedin {
 
 button.linkedin {
   font-size: 30px;
-  margin: auto;
   border: solid;
   border-radius: 100px;
   padding: 10px 15px 10px 15px;
@@ -136,7 +137,6 @@ a.github {
 }
 button.github {
   font-size: 30px;
-  margin: auto;
   border: solid;
   border-radius: 100px;
   padding: 10px 15px 10px 15px;

@@ -22,9 +22,16 @@ const AboutMe = props => (
       the chance to work on high-impact projects.
     </p>
     <div className="icons">
-      <button className="resume">
-        <FontAwesomeIcon icon={faFileDownload} />
-      </button>
+      <a
+        href="https://drive.google.com/file/d/1B1mRRk0Wn-m6POlmnJWhryiSnH0bs76U/view?usp=sharing"
+        rel="noopener noreferrer"
+        target="_blank"
+        className="resume"
+      >
+        <button className="resume">
+          <FontAwesomeIcon icon={faFileDownload} />
+        </button>
+      </a>
       <a
         className="linkedin"
         href="https://www.linkedin.com/in/janeth-arriola-a01463158/"

@@ -69,7 +69,7 @@ const Projects = props => (
           <div className="contributions">
             My Contributions:
             <ul>
-              <li>Implemented logic for alien movement and re-generation.</li>
+              <li>Logic for alien movement and re-generation.</li>
             </ul>
           </div>
           <div className="tech">
@@ -115,9 +115,9 @@ const Projects = props => (
             <br />
             My Contributions:
             <ul>
-              <li>Implemented login feature.</li>
-              <li>Impremented create-account feature.</li>
-              <li>Used Stripe API for payment storage/verification.</li>
+              <li>Login feature.</li>
+              <li>Create-account feature.</li>
+              <li>Implemented Stripe API for payment storage/verification.</li>
             </ul>
           </div>
           <div className="tech-long">

@@ -3,6 +3,7 @@
 ### [1.5.0]
 
 - All links now will redirect to a new tab.
+- Resume button is now active.
 
 ### [1.4.0]
 
