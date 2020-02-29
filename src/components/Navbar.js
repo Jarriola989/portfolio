@@ -17,7 +17,11 @@ class Navbar extends Component {
         <div className="inner-nav">
           <Link
             to="/portfolio"
-            className={"/portfolio" === pathname ? "active" : "inactive"}
+            className={
+              "/portfolio" === pathname || "/portfolio/" === pathname
+                ? "active"
+                : "inactive"
+            }
           >
             About Me
           </Link>

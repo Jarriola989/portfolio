@@ -108,8 +108,12 @@ p.about {
   opacity: 0.5;
 }
 
-.linkedin {
+a.linkedin {
   grid-column: 2 / 3;
+  margin: 0 auto;
+}
+
+button.linkedin {
   font-size: 30px;
   margin: auto;
   border: solid;
@@ -121,8 +125,16 @@ p.about {
   opacity: 0.5;
 }
 
-.github {
+a:focus,
+button:focus {
+  outline: none;
+}
+
+a.github {
   grid-column: 3 / 4;
+  margin: 0 auto;
+}
+button.github {
   font-size: 30px;
   margin: auto;
   border: solid;
@@ -148,19 +160,10 @@ p.about {
   /* align-items: center; */
 }
 
-/* h2 {
-  font-family: "Open Sans";
-  color: #e9e2d0;
-  font-size: 20px;
-  margin: 0 auto;
-  /* align-items: center;
-  display: flex; */
-/* } */
-
 .languages-title {
   grid-row: 1 / 2;
   grid-column: 2 / 3;
-  background-color: rgb(214, 209, 216);
+  /* background-color: rgb(214, 209, 216); */
   border-radius: 10px;
   margin: 0 auto;
   display: flex;
@@ -168,6 +171,7 @@ p.about {
   margin-left: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
+  box-shadow: inset 400px 0 0 0 rgb(214, 209, 216);
   /* -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75); */
@@ -179,20 +183,21 @@ p.about {
   color: #6e5773;
   font-size: 20px;
   font-family: "Open Sans";
-  background-color: transparent;
   padding: 10px;
   border-radius: 10px;
-  /* padding: 0; */
-}
-
-.languages-title button:hover {
-  background-color: white;
-  color: #6e5773;
+  transition: all 0.5s 0.1s ease-out;
+  -webkit-transition: all 0.5s 0.1s ease-out;
+  -moz-transition: all 0.5s 0.1s ease-out;
+  box-shadow: inset 400px 0 0 0 rgb(213, 209, 216);
 }
 
 button.active-languages-option {
-  background-color: white;
+  box-shadow: inset 400px 0 0 0 white;
+  /* background-color: white; */
   color: #6e5773;
+  /* transition: 1.25s ease-out; */
+
+  box-shadow: inset 400px 0 0 0 white;
 }
 
 button.active-languages-option:active {
@@ -214,6 +219,9 @@ button.active-languages-option:active {
   grid-row: 2 / 3;
   /* height: 100%; */
   display: flex;
+  -webkit-box-shadow: 0px 0px 46px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 46px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 46px -14px rgba(0, 0, 0, 0.75);
 }
 
 .open {

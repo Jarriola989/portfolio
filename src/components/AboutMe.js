@@ -25,23 +25,19 @@ const AboutMe = props => (
       <button className="resume">
         <FontAwesomeIcon icon={faFileDownload} />
       </button>
-      <button
+      <a
         className="linkedin"
-        onClick={() => {
-          window.location.href =
-            "https://www.linkedin.com/in/janeth-arriola-a01463158/";
-        }}
+        href="https://www.linkedin.com/in/janeth-arriola-a01463158/"
       >
-        <FontAwesomeIcon icon={faLinkedin} />
-      </button>
-      <button
-        className="github"
-        onClick={() => {
-          window.location.href = "https://github.com/Jarriola989";
-        }}
-      >
-        <FontAwesomeIcon icon={faGithub} />
-      </button>
+        <button className="linkedin">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </button>
+      </a>
+      <a className="github" href="https://github.com/Jarriola989">
+        <button className="github">
+          <FontAwesomeIcon icon={faGithub} />
+        </button>
+      </a>
     </div>
   </div>
 );
