@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb30022b3b650d33214b7ab6f00b46ef",
+    "revision": "78f25fc888b68a7bd8826d4ee62fb719",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "ea5d838c91dae8ed1552",
-    "url": "/portfolio/static/css/main.48a63a2a.chunk.css"
+    "revision": "29a2d74001f183d12e14",
+    "url": "/portfolio/static/css/main.c5201339.chunk.css"
   },
   {
     "revision": "28e1abbdf172a17f94c4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.1c68133f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea5d838c91dae8ed1552",
-    "url": "/portfolio/static/js/main.d75df35a.chunk.js"
+    "revision": "29a2d74001f183d12e14",
+    "url": "/portfolio/static/js/main.d594f69a.chunk.js"
   },
   {
     "revision": "11351ff706ca9640736e",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "894bef2fffd5fea517c49cd1fc091df1",
     "url": "/portfolio/static/media/MiamiHacks.894bef2f.png"
-  },
-  {
-    "revision": "b7252cde93b54af29948d8473f1ef7ba",
-    "url": "/portfolio/static/media/bg.b7252cde.jpg"
   },
   {
     "revision": "5cf39d01d5bd7312cc9eb68cff587e2f",
@@ -62,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7e47a6350869e3441ebec7c132a8f797",
     "url": "/portfolio/static/media/node.7e47a635.jpg"
+  },
+  {
+    "revision": "46996aca606038a8e03a701fa34dfcc3",
+    "url": "/portfolio/static/media/orange-cloud.46996aca.jpg"
   },
   {
     "revision": "abbe688d224ec54b91f44565e6472a95",

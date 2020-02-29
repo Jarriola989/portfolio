@@ -4,6 +4,7 @@
 
 - All links now will redirect to a new tab.
 - Resume button is now active.
+- Background updated.
 
 ### [1.4.0]
 
