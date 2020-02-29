@@ -28,12 +28,19 @@ const AboutMe = props => (
       <a
         className="linkedin"
         href="https://www.linkedin.com/in/janeth-arriola-a01463158/"
+        rel="noopener noreferrer"
+        target="_blank"
       >
         <button className="linkedin">
           <FontAwesomeIcon icon={faLinkedin} />
         </button>
       </a>
-      <a className="github" href="https://github.com/Jarriola989">
+      <a
+        className="github"
+        href="https://github.com/Jarriola989"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         <button className="github">
           <FontAwesomeIcon icon={faGithub} />
         </button>

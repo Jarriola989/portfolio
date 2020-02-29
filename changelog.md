@@ -1,5 +1,9 @@
 ## Released
 
+### [1.5.0]
+
+- All links now will redirect to a new tab.
+
 ### [1.4.0]
 
 - Contact me page grid set up.

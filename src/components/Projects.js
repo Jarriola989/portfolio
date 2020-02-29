@@ -42,12 +42,17 @@ const Projects = props => (
             </ul>
           </div>
           <div className="code-link">
-            <a href="https://wisecode.io" className="project-link">
+            <a
+              href="https://wisecode.io"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="project-link"
+            >
               <FontAwesomeIcon icon={faLink} />
             </a>
-            <button className="project-link">
+            <p className="project-link">
               <FontAwesomeIcon icon={faCode} />
-            </button>
+            </p>
           </div>
         </div>
       </div>
@@ -75,7 +80,12 @@ const Projects = props => (
             </ul>
           </div>
           <div className="code-link">
-            <a href="https://simmer.io/@Dazen/rhaz" className="project-link">
+            <a
+              href="https://simmer.io/@Dazen/rhaz"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="project-link"
+            >
               <FontAwesomeIcon icon={faLink} />
             </a>
             <a href="/" className="project-link">
@@ -89,7 +99,7 @@ const Projects = props => (
       <div className="flip">
         <div className="front coming-soon"></div>
         <div className="back">
-          <strong className="project-name">COMING SOON!</strong>
+          <strong className="project-name">NEW PROJECT COMING SOON!</strong>
         </div>
       </div>
     </div>
@@ -121,7 +131,12 @@ const Projects = props => (
             </ul>
           </div>
           <div className="code-link-long">
-            <a href="https://geek-text.netlify.com/" className="project-link">
+            <a
+              href="https://geek-text.netlify.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="project-link"
+            >
               <FontAwesomeIcon icon={faLink} />
             </a>
             <a href="/" className="project-link">
