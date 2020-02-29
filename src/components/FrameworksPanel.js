@@ -3,6 +3,7 @@ import react from "../images/frameworks/react.png";
 import node from "../images/frameworks/node.jpg";
 import springboot from "../images/frameworks/springboot.png";
 import prisma from "../images/frameworks/prisma.png";
+import redis from "../images/frameworks/redis.jpg";
 
 class FrameworksPanel extends Component {
   constructor() {
@@ -10,9 +11,9 @@ class FrameworksPanel extends Component {
     this.state = {
       react: "close",
       node: "close",
-      springboot: "close",
       prisma: "close",
-      yoga: "close"
+      springboot: "close",
+      redis: "close"
     };
   }
 
@@ -40,20 +41,20 @@ class FrameworksPanel extends Component {
   render() {
     return (
       <div className="panel-container">
-        <div className={this.state.java} onClick={this.openPanel}>
+        <div className={this.state.react} onClick={this.openPanel}>
           <img src={react} alt="react" />
         </div>
-        <div className={this.state.htmlcss} onClick={this.openPanel}>
+        <div className={this.state.node} onClick={this.openPanel}>
           <img src={node} alt="node" />
         </div>
-        <div className={this.state.jsts} onClick={this.openPanel}>
-          <img src={springboot} alt="springboot" />
-        </div>
-        <div className={this.state.graphql} onClick={this.openPanel}>
+        <div className={this.state.prisma} onClick={this.openPanel}>
           <img src={prisma} alt="prisma" />
         </div>
-        <div className={this.state.cplusplus} onClick={this.openPanel}>
-          <img src={"/"} alt="cplusplus" />
+        <div className={this.state.springboot} onClick={this.openPanel}>
+          <img src={springboot} alt="springboot" />
+        </div>
+        <div className={this.state.redis} onClick={this.openPanel}>
+          <img src={redis} alt="redis" />
         </div>
       </div>
     );

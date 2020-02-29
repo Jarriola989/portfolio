@@ -42,9 +42,9 @@ const Projects = props => (
             </ul>
           </div>
           <div className="code-link">
-            <button className="project-link">
+            <a href="https://wisecode.io" className="project-link">
               <FontAwesomeIcon icon={faLink} />
-            </button>
+            </a>
             <button className="project-link">
               <FontAwesomeIcon icon={faCode} />
             </button>
@@ -75,12 +75,12 @@ const Projects = props => (
             </ul>
           </div>
           <div className="code-link">
-            <button className="project-link">
+            <a href="https://simmer.io/@Dazen/rhaz" className="project-link">
               <FontAwesomeIcon icon={faLink} />
-            </button>
-            <button className="project-link">
+            </a>
+            <a href="/" className="project-link">
               <FontAwesomeIcon icon={faCode} />
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -121,12 +121,12 @@ const Projects = props => (
             </ul>
           </div>
           <div className="code-link-long">
-            <button className="project-link">
+            <a href="https://geek-text.netlify.com/" className="project-link">
               <FontAwesomeIcon icon={faLink} />
-            </button>
-            <button className="project-link">
+            </a>
+            <a href="/" className="project-link">
               <FontAwesomeIcon icon={faCode} />
-            </button>
+            </a>
           </div>
         </div>
       </div>
