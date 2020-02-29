@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "535d9ee1b20e60a447244cdbd1b937c9",
+    "revision": "e845717049156c624197b0f6dfce44b5",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "94ab463621842abe1806",
-    "url": "/portfolio/static/css/main.580611e6.chunk.css"
+    "revision": "3931baa88a367c0630bb",
+    "url": "/portfolio/static/css/main.48a63a2a.chunk.css"
   },
   {
-    "revision": "b9fd61cd46b6aeb49f21",
-    "url": "/portfolio/static/js/2.e156ce36.chunk.js"
+    "revision": "28e1abbdf172a17f94c4",
+    "url": "/portfolio/static/js/2.1c68133f.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/portfolio/static/js/2.e156ce36.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.1c68133f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94ab463621842abe1806",
-    "url": "/portfolio/static/js/main.26df3964.chunk.js"
+    "revision": "3931baa88a367c0630bb",
+    "url": "/portfolio/static/js/main.03d56cc6.chunk.js"
   },
   {
     "revision": "11351ff706ca9640736e",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/js-ts.0c6dab7f.png"
   },
   {
-    "revision": "4da02a10c1b3bead4b3357c349193718",
-    "url": "/portfolio/static/media/node.4da02a10.jpg"
+    "revision": "7e47a6350869e3441ebec7c132a8f797",
+    "url": "/portfolio/static/media/node.7e47a635.jpg"
   },
   {
     "revision": "abbe688d224ec54b91f44565e6472a95",
@@ -72,12 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/react.48eebb10.png"
   },
   {
+    "revision": "451c44a71db16615c34edbdd15b7de1c",
+    "url": "/portfolio/static/media/redis.451c44a7.jpg"
+  },
+  {
     "revision": "8297fb02e9bd9933ff07160424ec8970",
     "url": "/portfolio/static/media/rhaz.8297fb02.png"
   },
   {
-    "revision": "e07267fa8e0be228f590e06ae5258c84",
-    "url": "/portfolio/static/media/springboot.e07267fa.png"
+    "revision": "325d3433048e5d94622798617bb49833",
+    "url": "/portfolio/static/media/springboot.325d3433.png"
   },
   {
     "revision": "07d7674110a05372c05e56e669ccf06a",
