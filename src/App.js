@@ -39,6 +39,7 @@ class App extends Component {
               <Navbar {...props} />
             ))}
           />
+
           <button
             onClick={() => {
               this.openMobileMenu();
@@ -47,6 +48,7 @@ class App extends Component {
           >
             <FontAwesomeIcon icon={faCaretDown} />
           </button>
+          
           {this.state.mobileMenu === true ? (
             <Route
               path="/portfolio"

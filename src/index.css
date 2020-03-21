@@ -272,29 +272,63 @@ button.active-languages-option:active {
 .projects {
   grid-column: 1 / 8;
   grid-row: 2 / 6;
+  background-color: #efd9ce;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 5% 10% 80% 10%;
+}
+.projects-menu {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  border-radius: 10px;
+  /* margin: 0 auto; */
+  display: flex;
+  /* padding: 10px 10px 10px 10px; */
+  /* margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px; */
+  box-shadow: inset 400px 0 0 0 rgb(214, 209, 216);
+}
+.projects-menu button {
+  border: none;
+  font-weight: bold;
+  color: #a78682;
+  font-size: 20px;
+  font-family: "Open Sans";
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.25s 0.1s ease-out;
+  -webkit-transition: all 0.25s 0.1s ease-out;
+  -moz-transition: all 0.25s 0.1s ease-out;
+  box-shadow: inset 400px 0 0 0 rgb(213, 209, 216);
+}
+
+.project-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   column-gap: 10px;
   row-gap: 10px;
   padding: 15px 90px 15px 90px;
-  background-color: #efd9ce;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  border: solid;
+  overflow-y: scroll;
 }
 
-.projects div {
+.project-list div {
   perspective: 1000px;
   /* border: solid; */
 }
-
-.projects div,
+.project-list div,
 .front,
 .back {
   height: 100%;
   width: 100%;
 }
 
-.projects div:hover .flip,
-.projects div.hover .flip {
+.project-list div:hover .flip,
+.project-list div.hover .flip {
   transform: rotateY(180deg);
 }
 

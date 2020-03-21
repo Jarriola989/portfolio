@@ -12,8 +12,8 @@ import "../mobile.css";
 
 const Menu = props => (
   <div className="mobile-menu">
-    <button onClick={props.closeMobileMenu}>
-      <FontAwesomeIcon icon={faTimes} className="exit-menu" />
+    <button onClick={props.closeMobileMenu} className="exit-menu">
+      <FontAwesomeIcon icon={faTimes} />
     </button>
 
     <Link to="/portfolio">
