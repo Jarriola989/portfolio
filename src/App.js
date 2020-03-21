@@ -43,8 +43,9 @@ class App extends Component {
             onClick={() => {
               this.openMobileMenu();
             }}
+            className="mobile-menu-btn"
           >
-            <FontAwesomeIcon className="mobile-menu-btn" icon={faCaretDown} />
+            <FontAwesomeIcon icon={faCaretDown} />
           </button>
           {this.state.mobileMenu === true ? (
             <Route
@@ -53,9 +54,7 @@ class App extends Component {
                 <Menu {...props} closeMobileMenu={this.closeMobileMenu} />
               )}
             />
-          ) : (
-            ""
-          )}
+          ) : null}
           {/* <Route path="/portfolio" component={Menu} /> */}
           <Route exact path="/portfolio" component={AboutMe} />
           <Route path="/portfolio/languages" component={Languages} />
