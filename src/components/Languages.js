@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import LanguagesPanel from "./LanguagesPanel";
 import FrameworksPanel from "./FrameworksPanel";
+import "../mobile.css";
 
 class Languages extends Component {
   constructor() {

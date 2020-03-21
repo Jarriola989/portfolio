@@ -33,9 +33,6 @@ html {
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: 1fr 8fr;
 }
-.box div {
-  /* border: solid; */
-}
 
 .content {
   /* border: solid; */
@@ -87,7 +84,6 @@ p.about {
 .icons {
   grid-column: 2 / 3;
   grid-row: 4 / 5;
-  /* border: solid; */
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -143,7 +139,6 @@ button.github {
   background-color: #e9e2d0;
   color: black;
   opacity: 0.5;
-  /* border-color: rgb(49, 119, 176); */
 }
 
 /********** LANGUAGES **********/

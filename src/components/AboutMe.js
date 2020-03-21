@@ -3,6 +3,7 @@ import computer from "../images/computer.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import "../mobile.css";
 
 const AboutMe = props => (
   <div className="content">

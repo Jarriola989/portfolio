@@ -5,6 +5,7 @@ import { BrowserRouter, Route, withRouter } from "react-router-dom";
 import Languages from "./components/Languages";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import "./mobile.css";
 
 class App extends Component {
   constructor() {
