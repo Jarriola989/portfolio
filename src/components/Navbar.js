@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-// let url = window.location.href.split('/');
-// let path = window.location.pathname;
-
 class Navbar extends Component {
   constructor() {
     super();

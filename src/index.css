@@ -18,6 +18,10 @@ html {
   width: 100%;
 }
 
+.mobile-menu-btn {
+  display: none;
+}
+
 .box {
   background-color: #6e5773;
   background-size: cover;
