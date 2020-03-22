@@ -29,7 +29,7 @@ class Languages extends Component {
         <div className="languages">
           <div className="languages-title">
             <button
-              className="active-languages-option slide_right"
+              className="active-languages-option"
               onClick={this.switchToLanguages}
             >
               Languages
@@ -48,7 +48,7 @@ class Languages extends Component {
           <div className="languages-title">
             <button onClick={this.switchToLanguages}>Languages</button>
             <button
-              className="active-languages-option slide_right"
+              className="active-languages-option"
               onClick={this.switchToFrameworks}
             >
               Frameworks and Tools
