@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f2bb1533.chunk.css",
-    "main.js": "/portfolio/static/js/main.c3dc2657.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c3dc2657.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ab376065.chunk.css",
+    "main.js": "/portfolio/static/js/main.a84d88e4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a84d88e4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3b971105.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3b971105.js.map",
-    "static/js/2.07d4c57e.chunk.js": "/portfolio/static/js/2.07d4c57e.chunk.js",
-    "static/js/2.07d4c57e.chunk.js.map": "/portfolio/static/js/2.07d4c57e.chunk.js.map",
+    "static/js/2.1015a431.chunk.js": "/portfolio/static/js/2.1015a431.chunk.js",
+    "static/js/2.1015a431.chunk.js.map": "/portfolio/static/js/2.1015a431.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1fcac1d83adec938ec3d49c869b04e5c.js": "/portfolio/precache-manifest.1fcac1d83adec938ec3d49c869b04e5c.js",
+    "precache-manifest.8e112c26cf676dd369c094e652336ea0.js": "/portfolio/precache-manifest.8e112c26cf676dd369c094e652336ea0.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.f2bb1533.chunk.css.map": "/portfolio/static/css/main.f2bb1533.chunk.css.map",
-    "static/js/2.07d4c57e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.07d4c57e.chunk.js.LICENSE.txt",
+    "static/css/main.ab376065.chunk.css.map": "/portfolio/static/css/main.ab376065.chunk.css.map",
+    "static/js/2.1015a431.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1015a431.chunk.js.LICENSE.txt",
     "static/media/Java.jpg": "/portfolio/static/media/Java.2b63970b.jpg",
     "static/media/index.css": "/portfolio/static/media/orange-cloud.46996aca.jpg",
     "static/media/computer.jpeg": "/portfolio/static/media/computer.5cf39d01.jpeg",
@@ -26,12 +26,13 @@
     "static/media/redis.jpg": "/portfolio/static/media/redis.451c44a7.jpg",
     "static/media/rhaz.png": "/portfolio/static/media/rhaz.8297fb02.png",
     "static/media/springboot.png": "/portfolio/static/media/springboot.325d3433.png",
-    "static/media/wise-code.png": "/portfolio/static/media/wise-code.07d76741.png"
+    "static/media/wise-code.png": "/portfolio/static/media/wise-code.07d76741.png",
+    "static/media/wisedb.png": "/portfolio/static/media/wisedb.ba0979f5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3b971105.js",
-    "static/js/2.07d4c57e.chunk.js",
-    "static/css/main.f2bb1533.chunk.css",
-    "static/js/main.c3dc2657.chunk.js"
+    "static/js/2.1015a431.chunk.js",
+    "static/css/main.ab376065.chunk.css",
+    "static/js/main.a84d88e4.chunk.js"
   ]
 }
