@@ -80,7 +80,7 @@ class Projects extends Component {
                       <FontAwesomeIcon icon={faLink} /> Live
                     </button>
                   </a>
-                  <p className="project-link">
+                  <p className="project-link private">
                     <button disabled>
                       <FontAwesomeIcon icon={faEyeSlash} /> Source Code
                     </button>
@@ -117,12 +117,12 @@ class Projects extends Component {
                   </ul>
                 </div>
                 <div className="code-link">
-                  <p className="project-link">
+                  <p className="project-link private">
                     <button disabled>
                       <FontAwesomeIcon icon={faEyeSlash} /> Live
                     </button>
                   </p>
-                  <p className="project-link">
+                  <p className="project-link private">
                     <button disabled>
                       <FontAwesomeIcon icon={faEyeSlash} /> Source Code
                     </button>
