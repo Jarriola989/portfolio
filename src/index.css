@@ -40,6 +40,17 @@ html {
   grid-template-rows: 1fr 8fr;
 }
 
+@keyframes transitionPage {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
 .content {
   /* border: solid; */
   grid-column: 1 / 8;
@@ -65,6 +76,7 @@ html {
   z-index: -1;
   position: relative;
   display: block;
+  animation: transitionPage 0.75s;
   /* top: 40px; */
 }
 
@@ -75,6 +87,7 @@ h1.name {
   /* border: solid; */
   padding: 0px 0px 0px 20px;
   font-family: "Open Sans";
+  animation: transitionPage 0.75s;
 }
 
 p.about {
@@ -84,6 +97,7 @@ p.about {
   /* border: solid; */
   padding: 30px 50px 30px 20px;
   font-family: "Raleway";
+  animation: transitionPage 0.75s;
   /* padding-right: 50px; */
 }
 
@@ -92,6 +106,7 @@ p.about {
   grid-row: 4 / 5;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  animation: transitionPage 0.75s;
 }
 
 .icons button:hover {
@@ -172,6 +187,7 @@ button.github {
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: inset 400px 0 0 0 rgb(214, 209, 216);
+  animation: transitionPage 0.75s;
   /* -webkit-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.75); */
@@ -208,6 +224,7 @@ button.active-languages-option {
   -webkit-box-shadow: 0px 0px 46px -14px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 46px -14px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 46px -14px rgba(0, 0, 0, 0.75);
+  animation: transitionPage 0.5s;
 }
 
 .open {
@@ -276,6 +293,7 @@ button.active-languages-option {
   /* margin-top: 30px; */
   margin-bottom: 10px;
   box-shadow: inset 400px 0 0 0 rgb(214, 209, 216);
+  animation: transitionPage 0.75s;
 }
 .projects-menu button {
   border: none;
@@ -307,6 +325,7 @@ button.active-projects {
   grid-row: 3 / 4;
   /* border: solid; */
   overflow-y: scroll;
+  animation: transitionPage 0.75s;
 }
 
 .project-box {
@@ -511,16 +530,19 @@ a {
 .message-name {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
+  animation: transitionPage 0.75s;
 }
 
 .message-email {
   grid-row: 2 / 3;
   grid-column: 4 / 5;
+  animation: transitionPage 0.75s;
 }
 
 .message-content {
   grid-row: 4 / 8;
   grid-column: 2 / 5;
+  animation: transitionPage 0.75s;
 }
 
 .message-content input {

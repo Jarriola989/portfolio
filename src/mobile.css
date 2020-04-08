@@ -26,6 +26,7 @@
     color: #25283d;
     border: none;
     background-color: transparent;
+    z-index: 1;
   }
 
   .mobile-menu {
