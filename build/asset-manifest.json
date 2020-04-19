@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6d54906e.chunk.css",
-    "main.js": "/portfolio/static/js/main.a7b2c3f6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a7b2c3f6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.dd13441e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.dd13441e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3b971105.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3b971105.js.map",
     "static/js/2.1015a431.chunk.js": "/portfolio/static/js/2.1015a431.chunk.js",
     "static/js/2.1015a431.chunk.js.map": "/portfolio/static/js/2.1015a431.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.22f8959c28d65b3d423f67cc18c64a3a.js": "/portfolio/precache-manifest.22f8959c28d65b3d423f67cc18c64a3a.js",
+    "precache-manifest.6eec8d6811b049922163bef94d8562b2.js": "/portfolio/precache-manifest.6eec8d6811b049922163bef94d8562b2.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.6d54906e.chunk.css.map": "/portfolio/static/css/main.6d54906e.chunk.css.map",
     "static/js/2.1015a431.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1015a431.chunk.js.LICENSE.txt",
@@ -16,7 +16,7 @@
     "static/media/index.css": "/portfolio/static/media/orange-cloud.46996aca.jpg",
     "static/media/computer.jpeg": "/portfolio/static/media/computer.5cf39d01.jpeg",
     "static/media/cplusplus.jpg": "/portfolio/static/media/cplusplus.d4e64920.jpg",
-    "static/media/geektext.png": "/portfolio/static/media/geektext.10c1602d.png",
+    "static/media/geektext.png": "/portfolio/static/media/geektext.029a7f79.png",
     "static/media/graphql.png": "/portfolio/static/media/graphql.398b7a11.png",
     "static/media/html-css.jpg": "/portfolio/static/media/html-css.e87e26c1.jpg",
     "static/media/js-ts.png": "/portfolio/static/media/js-ts.0c6dab7f.png",
@@ -24,7 +24,7 @@
     "static/media/prisma.png": "/portfolio/static/media/prisma.abbe688d.png",
     "static/media/react.png": "/portfolio/static/media/react.48eebb10.png",
     "static/media/redis.jpg": "/portfolio/static/media/redis.451c44a7.jpg",
-    "static/media/rhaz.png": "/portfolio/static/media/rhaz.8297fb02.png",
+    "static/media/rhaz.png": "/portfolio/static/media/rhaz.c52d202b.png",
     "static/media/springboot.png": "/portfolio/static/media/springboot.325d3433.png",
     "static/media/wise-code.png": "/portfolio/static/media/wise-code.07d76741.png",
     "static/media/wisedb.png": "/portfolio/static/media/wisedb.ba0979f5.png"
@@ -33,6 +33,6 @@
     "static/js/runtime-main.3b971105.js",
     "static/js/2.1015a431.chunk.js",
     "static/css/main.6d54906e.chunk.css",
-    "static/js/main.a7b2c3f6.chunk.js"
+    "static/js/main.dd13441e.chunk.js"
   ]
 }
